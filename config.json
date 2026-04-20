@@ -1,0 +1,42 @@
+{
+  "cdn_sigs": {
+    "AWS CloudFront": ["cloudfront"],
+    "Cloudflare": ["cloudflare", "cdn.cloudflare.net"],
+    "Azure FrontDoor/CDN": ["azurefd", "azureedge", "msecnd", "trafficmanager"],
+    "Akamai": ["akamai", "edgekey", "akamaiedge"],
+    "Fastly": ["fastly", "fastly.net"],
+    "Imperva (Incapsula)": ["incapdns", "imperva"],
+    "Edgio (Edgecast/Limelight)": ["edgecast", "systemcdn", "llnwd", "limelight"], 
+    "StackPath (MaxCDN)": ["stackpath", "maxcdn"],
+    "Sucuri WAF": ["sucuri"],
+    "Gcore": ["gcdn.co", "gcore"],
+    "CDN77": ["cdn77"],
+    "HINET CDN": ["hinet"],
+    "HIWAF": ["hiwaf"],
+    "WIX": ["wixdns.net"],
+    "Bunny CDN": ["b-cdn.net", "bunny.net", "bunnycdn"],
+    "KeyCDN": ["kxcdn"],
+    "CacheFly": ["cachefly"],
+    "Vercel Edge": ["vercel", "vercel-dns"],
+    "Netlify Edge": ["netlify"],
+    "Alibaba CDN": ["kunlun", "alikunlun", "alibabacdn"],
+    "Tencent CDN": ["cdntip", "qcloud", "dnspod"],
+    "Wangsu (網宿/Quantil)": ["wswebpic", "wscdns", "quantil", "chinanetcenter"],
+    "CDNetworks": ["cdnetworks", "panthercdn"],
+    "Baidu Yunjiasu (百度雲加速)": ["yunjiasu", "baiduyuncdn"],
+    "Qiniu (七牛雲)": ["qiniudns", "clouddn", "qbox.me"],
+    "Upyun (又拍雲)": ["upaiyun"],
+    "ArvanCloud": ["arvancloud", "arvancdn"]
+  },
+  "cloud_sigs": {
+    "AWS": ["amazon", "amazonaws", "aws ec2"],
+    "Google Cloud": ["google", "googleusercontent", "gcp"],
+    "Azure": ["microsoft", "azure"],
+    "Alibaba Cloud": ["alibaba", "aliyun"],
+    "Tencent Cloud": ["tencent"],
+    "DigitalOcean": ["digitalocean"],
+    "Linode (Akamai)": ["linode"],
+    "Vultr": ["vultr", "choopa"],
+    "Hetzner": ["hetzner"]
+  }
+}
