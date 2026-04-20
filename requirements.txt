@@ -1,1 +1,6 @@
 streamlit
+pandas
+requests
+dnspython
+pyopenssl
+service_identity
